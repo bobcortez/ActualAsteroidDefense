@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
 public class SpaceGif extends JPanel {
-	
+
 	private Icon icon = new ImageIcon("Images/spacebackgroundGIF.gif");
 
 	public Icon getIcon() {
@@ -17,7 +17,4 @@ public class SpaceGif extends JPanel {
 		this.icon = icon;
 	}
 
-	}
-	
-	
-
+}
